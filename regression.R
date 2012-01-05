@@ -43,4 +43,5 @@ par(bty = 'l', las = 1)
 plot(x, y)
 abline(a=a[N], b=b[N], lty = 2) # estimated line
 abline(a=oa, b=ob) # real line
+abline(lm(y~x), lty=3) # "traditional" line
 
