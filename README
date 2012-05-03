@@ -4,4 +4,5 @@ maxL.R - computing maximum likelihood.
 regression.R - how perform linear regression using maximum likelihood method.
 black hole.R - example of law of large numbers and central limit theorem.
 std.R - why correct scaling is important to standard deviaton and variance.
+area.R - code made for ppbio project for showing area of their transects.
 

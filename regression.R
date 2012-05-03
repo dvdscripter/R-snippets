@@ -1,4 +1,5 @@
 rm(list=ls())
+set.seed(1)
 oa <- 5
 ob <- 0.4
 sdev <- 0.5
@@ -39,9 +40,11 @@ for (i in 2:N) {
 	}
 }
 
+png("regression.png")
 par(bty = 'l', las = 1)
 plot(x, y)
 abline(a=a[N], b=b[N], lty = 2) # estimated line
 abline(a=oa, b=ob) # real line
 abline(lm(y~x), lty=3) # "traditional" line
+dev.off()
 
