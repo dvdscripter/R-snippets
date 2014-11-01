@@ -6,4 +6,6 @@ black hole.R - example of law of large numbers and central limit theorem.
 std.R - why correct scaling is important to standard deviaton and variance.
 area.R - code made for ppbio project for showing area of their transects.
 repititions megasena.R - probability of repititions on the next game.
+utils.R - useful functions I tend to use on external datasets.
+piMC.R - how to calc pi constant using monte carlo methods.
 
